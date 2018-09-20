@@ -1,0 +1,104 @@
+Write a program to get two integers from the user and print the sum of the two integers?
+#include<stdio.h>
+void main()
+{
+    int a,b;
+    printf("enter the value of a,b");
+    scanf("%d%d",&a,&b);
+    printf("%d",a+b);
+    
+}
+
+
+Write a function to add two integers. (demo) 
+#include<stdio.h>
+int add(int a,int b);
+void main()
+{
+    int a,b;
+    printf("enter the value of a,b");
+    scanf("%d%d",&a,&b);
+   add(a,b);
+}
+int add(int a,int b)
+{
+    int c;
+    c=a+b;
+    printf("%d",c);
+}
+
+Write a program to get two float from the user and print the sum of the two float?
+#include<stdio.h>
+float add(float a,float b);
+void main()
+{
+    float a,b;
+    printf("enter the value of a,b");
+    scanf("%f%f",&a,&b);
+   add(a,b);
+}
+float add(float a,float b)
+{
+    float c;
+    c=a+b;
+    printf("%f",c);
+}
+
+
+
+Write a function to compare 2 numbers and test it.
+if(a>b)
+{
+printf a is greater than b;
+}
+else if(b>a)
+{
+print b is greater than a;
+}
+else
+{
+print a and b are equal;
+}
+
+
+Write a function to compare 3 numbers and test it
+int a,b,c;
+if(a>b && a>c)
+{
+printf a is greatest
+}
+else if(b>a && b>c)
+{
+print b is greatest
+}
+else if(c>a && c>b)
+{
+print c is greatest
+}
+else
+{
+printf all are equal
+}
+}
+
+
+
+What is the structure of a program?
+Preprocessor Commands(header files)
+Functions
+Variables
+Statements & Expressions
+Comments
+
+What is the difference between %d and %f format specifiers?
+%d is for integer data type where only integer numbers can be used .
+%f is for float data type where we can use all numbers including points(fractions like 1.32).
+
+What is a function? 
+a function is a group of statements in which arguments, parameters etc is used to perform a specific task.
+
+
+
+
+
+
